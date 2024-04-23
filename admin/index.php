@@ -55,7 +55,7 @@
                                 </td>
                                 <td style="padding:0px;margin:0px;">
                                     <p class="profile-title">Administrator</p>
-                                    <p class="profile-subtitle">admin@edoc.com</p>
+                                    <p class="profile-subtitle">admin@medfix.com</p>
                                 </td>
                             </tr>
                             <tr>
@@ -227,7 +227,7 @@
 
 
 
-                <tr>
+                <!-- <tr>
                     <td colspan="4">
                         <table width="100%" border="0" class="dashbord-tables">
                             <tr>
@@ -455,7 +455,7 @@
                         </table>
                     </td>
 
-                </tr>
+                </tr> -->
                         </table>
                         </center>
                         </td>

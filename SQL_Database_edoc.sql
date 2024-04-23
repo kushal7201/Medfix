@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `edoc`
+-- Database: `medfix`
 --
 
 -- --------------------------------------------------------
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
-('admin@edoc.com', '123');
+('admin@medfix.com', '123');
 
 -- --------------------------------------------------------
 
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 --
 
 INSERT INTO `doctor` (`docid`, `docemail`, `docname`, `docpassword`, `docnic`, `doctel`, `specialties`) VALUES
-(1, 'doctor@edoc.com', 'Test Doctor', '123', '000000000', '0110000000', 1);
+(1, 'doctor@medfix.com', 'Test Doctor', '123', '000000000', '0110000000', 1);
 
 -- --------------------------------------------------------
 
@@ -117,8 +117,7 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@edoc.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000'),
-(2, 'emhashenudara@gmail.com', 'Hashen Udara', '123', 'Sri Lanka', '0110000000', '2022-06-03', '0700000000');
+(1, 'patient@medfix.com', 'Test Patient', '123', 'BH1', '0000000000', '2000-01-01', '0120000000');
 
 -- --------------------------------------------------------
 
@@ -245,10 +244,9 @@ CREATE TABLE IF NOT EXISTS `webuser` (
 --
 
 INSERT INTO `webuser` (`email`, `usertype`) VALUES
-('admin@edoc.com', 'a'),
-('doctor@edoc.com', 'd'),
-('patient@edoc.com', 'p'),
-('emhashenudara@gmail.com', 'p');
+('admin@medfix.com', 'a'),
+('doctor@medfix.com', 'd'),
+('patient@medfix.com', 'p');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

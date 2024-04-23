@@ -56,8 +56,8 @@ if($_POST){
         <table border="0">
             <tr>
                 <td colspan="2">
-                    <p class="header-text">Let's Get Started</p>
-                    <p class="sub-text">Add Your Personal Details to Continue</p>
+                    <p class="header-text">Sign Up</p>
+                    <p class="sub-text"></p>
                 </td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@ if($_POST){
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <input type="text" name="nic" class="input-text" placeholder="NIC Number" required>
+                    <input type="text" name="nic" class="input-text" placeholder="Enrollment Number here" required>
                 </td>
             </tr>
             <tr>

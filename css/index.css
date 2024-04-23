@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/bg01.jpg);
+    background-image: url(../img/landing.jpg);  /* Landing page*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,7 +50,7 @@ table{
 }
 
 
-.edoc-logo{
+.medfix-logo{
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -58,7 +58,7 @@ table{
     animation: transitionIn-Y-over 0.5s;
 }
 
-.edoc-logo-sub{
+.medfix-logo-sub{
     color: rgba(255, 255, 255, 0.733);
     font-size: 12px;
 

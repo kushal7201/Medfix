@@ -75,6 +75,10 @@
 
                 }else{
                     $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">Wrong credentials: Invalid email or password</label>';
+                    $_SESSION['user']=$email;
+                    $_SESSION['usertype']='a';
+                    
+                    header('location: admin/index.php');
                 }
 
 
@@ -126,7 +130,7 @@
         <div class="form-body">
             <tr>
                 <td>
-                    <p class="sub-text">Login with your details to continue</p>
+                    <p class="sub-text">Welcome Back</p>
                 </td>
             </tr>
             <tr>

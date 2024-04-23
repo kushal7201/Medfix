@@ -538,7 +538,7 @@ input[type=search]:focus {
 
 
 .doctor-header{
-  background-image: url(../img/b8.jpg);
+  background-color: rgb(225, 225, 225);
   color: rgba(0, 0, 0, 0.87);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -547,7 +547,7 @@ input[type=search]:focus {
 }
 
 .patient-header{
-  background-image: url(../img/b3.jpg);
+  background-color: rgb(221, 221, 221);
 }
 
 .search-items{

@@ -116,7 +116,7 @@
                         <tr >
                             
                             <td colspan="1" class="nav-bar" >
-                            <p style="font-size: 23px;padding-left:12px;font-weight: 600;margin-left:20px;">Home</p>
+                            <p style="font-size: 23px;padding-left:12px;font-weight: 600;margin-left:20px;">Student Home</p>
                           
                             </td>
                             <td width="25%">
@@ -158,13 +158,13 @@
                         <td >
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Haven't any idea about doctors? no problem let's jumping to 
+                            <!-- <p>Haven't any idea about doctors? no problem let's jumping to 
                                 <a href="doctors.php" class="non-style-link"><b>"All Doctors"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
                                 Track your past and future appointments history.<br>Also find out the expected arrival time of your doctor or medical consultant.<br><br>
-                            </p>
+                            </p> -->
                             
-                            <h3>Channel a Doctor Here</h3>
+                            <h3>Search a Doctor Here</h3>
                             <form action="schedule.php" method="post" style="display: flex">
 
                                 <input type="search" name="search" class="input-text " placeholder="Search Doctor and We will Find The Session Available" list="doctors" style="width:45%;">&nbsp;&nbsp;
@@ -208,7 +208,7 @@
 
 
 
-                                    <center>
+                                    <!-- <center>
                                         <table class="filter-container" style="border: none;" border="0">
                                             <tr>
                                                 <td colspan="4">
@@ -275,13 +275,7 @@
                                                 
                                             </tr>
                                         </table>
-                                    </center>
-
-
-
-
-
-
+                                    </center> -->
 
 
                                 </td>
