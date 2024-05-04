@@ -15,3 +15,6 @@ GET STARTED
 <a href="https://github.com/Hannah2k23" title="Hannah2k23" style="text-decoration: none;">
     <img src="https://github.com/Hannah2k23.png" width="70px" alt="Mansa Mahendru" style="border-radius: 50%;">
 </a>
+<a href="https://github.com/rohit-110" title="rohit-110" style="text-decoration: none;">
+    <img src="https://github.com/rohit-110.png" width="70px" alt="Rohit Pandey" style="border-radius: 50%;">
+</a>
