@@ -56,8 +56,8 @@ CREATE TABLE IF NOT EXISTS `appointment` (
   `scheduleid` int(10) DEFAULT NULL,
   `appodate` date DEFAULT NULL,
   PRIMARY KEY (`appoid`),
-  KEY `pid` (`pid`),
-  KEY `scheduleid` (`scheduleid`)
+  FOREIGN KEY `pid` REFERENCES patient(`pid`),
+  FOREIGN KEY `scheduleid` REFERENCES schedule(`scheduleid`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `schedule` (
   `scheduletime` time DEFAULT NULL,
   `nop` int(4) DEFAULT NULL,
   PRIMARY KEY (`scheduleid`),
-  KEY `docid` (`docid`)
+  FOREIGN KEY `docid` REFERENCES doctor(`docid`)
 ) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
